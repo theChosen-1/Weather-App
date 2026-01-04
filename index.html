@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="background"></div>
+
+    <div class="container">
+        <div id="topBanner" class="card">
+            <div class="Location"></div>
+            <div class="Temperature"></div>
+
+            <div class="HL">
+                <div class="highTemp"></div>
+                <div class="lowTemp"></div>
+            </div>
+        </div>
+        
+        <div id="midBanner">
+            <div class="AirQuality card card-header">AIR QUALITY
+                <div class="qualityNum card-value"></div>
+                <div class="qualityIdentification card-label"></div>
+            </div>
+
+            <div class="Wind card card-header">WIND
+                <div class="windNum card-info"></div>
+                <div class="gustNum card-info"></div>
+                <div class="directionNum card-info"></div>
+            </div>
+
+            <div class="Precipitation card card-header">PRECIPITATION
+                <div class="prcpNum card-value"></div>
+                <div class="card-label">Today</div>
+            </div>
+
+            <div class="SunInfo card card-header">SUNSET
+                <div class="sunriseTime card-info"></div>
+                <div class="sunsetTime card-info"></div>
+            </div>
+        </div>
+
+        <div id="bottomBanner">
+            <div class="UvInfo card card-header">UV INDEX
+                <div class="uvNum card-value"></div>
+                <div class="uvClassification card-label"></div>
+            </div>
+
+            <div class="Humidity card card-header">HUMIDITY
+                <div class="humidityNum card-value"></div>
+                <div class="humidityClassification card-label"></div>
+            </div>
+
+            <div class="WeatherAlert card card-header">WEATHER ALERTS
+                <div class="alert"></div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="tempToggle">TOGGLE TEMPERATURE</button>
+            <button class="changeLocation">CHANGE LOCATION</button>
+        </div>
+    </div>
+
+    <div class="popUpForm card card-header" id="popUpForm">
+        <div class="formHeader">
+            <div class="title">Select Your Location</div>
+            <button class="closeBtn">&times;</button>
+        </div>
+        
+        <div class="body">
+            <input type="text" id="countryInput"  placeholder="Enter Country Name:" required/>
+            <input type="text" id="cityInput" placeholder="Enter City Name:" required/>
+            <button class="submitLocation">Submit</button>
+        </div>
+    </div>
+    
+    <div id="overlay"></div>
+</body>
+</html>
