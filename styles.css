@@ -136,7 +136,7 @@ body {
     justify-content: space-between;
 }
 
-.windNum, .gustNum, .directionNum, .sunsetTime, .sunriseTimen {
+.windNum, .gustNum, .directionNum, .sunsetTime, .sunriseTime {
     display: flex;
     justify-content: space-between;
     gap: 120px;
