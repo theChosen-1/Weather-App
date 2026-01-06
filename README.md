@@ -37,6 +37,8 @@ This project was created as an exercise in my learning journey of full-stack dev
 
 ![Weather App Screenshot](imgs/WeatherApp.jpeg)
 
+##
+
 ## How to Use
 
 1. The app loads with Philadelphia, US as the default location
