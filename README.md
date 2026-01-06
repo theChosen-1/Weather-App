@@ -33,7 +33,7 @@ This project was created as an exercise in my learning journey of full-stack dev
 
 [View Live Demo](https://thechosen-1.github.io/Weather-App/)
 
-## Screenshots
+##
 
 ![Weather App Screenshot](imgs/WeatherApp.jpeg)
 
