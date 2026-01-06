@@ -35,7 +35,7 @@ This project was created as an exercise in my learning journey of full-stack dev
 
 ## Screenshots
 
-![Weather App Screenshot](imgs/clear.jpg)
+![Weather App Screenshot](imgs/WeatherApp.jpg)
 
 ## How to Use
 
